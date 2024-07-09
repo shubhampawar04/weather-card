@@ -1,0 +1,59 @@
+.weather-card{
+    background-color: #44ADF5;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 0 5px 2px gray;
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 15px;    
+}
+
+.bg-sunny{
+background-color: #F0965A;
+}
+
+.bg-cloudy{
+    background-color: #C5C5C5;
+}
+
+.bg-rainy{
+    background-color: #44ADF5;
+}
+
+.bg-snowy{
+   background-color: #b7f4f4;
+}
+
+.tempature{
+    position: absolute;
+    padding: 0;
+    top: 20px;
+    right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.city{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+
+}
+.weather{
+    
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+    font-size: 20px;
+
+}
+.weather-icon{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    width: 100px;
+    
+}

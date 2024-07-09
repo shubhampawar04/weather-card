@@ -1,0 +1,12 @@
+.weather-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.weather-card-heading{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
